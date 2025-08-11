@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../img/self.png';
+import me from '../../img/self3.png';
 import classNames from 'classnames';
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
@@ -21,7 +21,7 @@ export default function Home({innerRef}) {
             <h2>I'm {info.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => (
-                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
+                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} link={bio.link}/>
                ))}
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>

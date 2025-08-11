@@ -1,4 +1,4 @@
-import self from "../img/self.png"
+import self from "../img/self3.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -27,54 +27,61 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Talim",
+    lastName: "Ansari",
+    initials: "Ta", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Frontend Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'Fueled by chai'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'Based in the India'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "React Developer at ",
+            link: "https://rockymountaintech.co/"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "let's get in ",
+            link: "talimansari73@gmail.com"
+        },
+         {
+            emoji: "📝",
+            text: "download my ",
+            link: "resume"
         }
     ],
     socials: [
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/talim2.o/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/talimansari",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/talim-ansari-427ab4195/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://x.com/AnsariTalim73",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -82,11 +89,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Talim. I am a frontend developer with over 5 years of experience. My expertise includes React.js, Next.js, TypeScript, Tailwind CSS, Redux Toolkit, and modern frontend optimization techniques. I am actively learning backend technologies such as Node.js, Express.js, PostgreSQL, MongoDB, and microservices architecture, with a focus on real-time communication using Kafka and cloud deployment on AWS. I am passionate about building scalable applications, exploring event-driven systems, and contributing to open-source projects. My recent practice projects include an eCommerce platform and a POS system using the MERN stack, Kafka, and microservices. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', "typescript","redux tookit" , "next", 'git', 'github', 'bootstrap', 'html5', 'css3', "tailwind css", "material-UI (mui)" ,"firebase","supabase" ],
+            exposedTo: ['nodejs', 'express', 'mongoDB', "nestjs", "kafka", "AWS", "microservices"]
         }
     ,
     hobbies: [
@@ -111,34 +118,27 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Earthlink",
+            live: "https://www.earthlink.net/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            // source: "https://github.com", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Invozio",
+            live: "https://www.invozio.com/",
+            // source: "https://github.com",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "LoopOS",
+            live: "https://food.loopos.ca/?id=659e664ce0ec95ac62733122&slug=loop-store-tzqlkc",
+            // source: "https://github.com",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Flapjack Editor",
+            live: "https://editor.flapjack.co/en/templates",
             image: mock4
         },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
     ]
 }
