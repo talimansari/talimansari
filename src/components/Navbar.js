@@ -6,6 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 import { singlePage } from '../info/Info';
+import taImg from "../img/ta.png"
 
 const links = [
     {
@@ -56,7 +57,7 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
                             smooth
                             onClick={() => setActive(link.active)} className={Style.link}>
                             {!link.type && <p style={{ padding: '0.5rem 0' }}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                            {link.type && <img src={taImg} alt='home img' style={{height: "8rem", width:"auto",objectFit:"contain"}}/>}
                         </Link>
                     </Box>
                 ))}
