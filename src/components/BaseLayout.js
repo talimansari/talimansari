@@ -51,7 +51,7 @@ export default function BaseLayout() {
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
                      {/* https://paytonpierce.dev */}
                   <p>template created with &hearts; by <a href={'https://talimansari.dev'}>Talim ansari</a></p>
-                  <p>&copy; 2025</p>
+                  <p>&copy; 2026</p>
                </Box>
             </Grid>
          </Grid>

@@ -1,4 +1,4 @@
-import resume from "../../img/talimResume.pdf"
+import resume from "../../img/Talim-ReactCV04.pdf"
 import { Box } from "@mui/material";
 
 function EmojiBullet(props) {
@@ -29,7 +29,7 @@ function EmojiBullet(props) {
                     <a href={link} target="_blank" rel="noopener noreferrer" className="link link-primary"
                     style={{color:"#4a00ff", fontSize:"1.3rem"}}
                     >
-                        Rocky Mountain Technologies India Pvt Ltd
+                        Hexalytics: Enterprise AI & Data Analytics Solutions
                     </a>
                 )
             )}

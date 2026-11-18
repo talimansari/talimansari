@@ -3,7 +3,8 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import cloudQuarksImg from "../img/CloudQuarkst.png"
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -30,7 +31,7 @@ export const info = {
     firstName: "Talim",
     lastName: "Ansari",
     initials: "Ta", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Frontend Developer",
+    position: "a Frontend Developer ( React.js, Next.js )",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -46,7 +47,7 @@ export const info = {
         {
             emoji: "💼",
             text: "React Developer at ",
-            link: "https://rockymountaintech.co/"
+            link: "https://hexalytics.com/"
         },
         {
             emoji: "📧",
@@ -117,6 +118,12 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "Redington CloudQuarks",
+            live: "https://www.admin.cloudquarks.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            // source: "https://github.com", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: cloudQuarksImg
+        },
         {
             title: "Earthlink",
             live: "https://www.earthlink.net/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
